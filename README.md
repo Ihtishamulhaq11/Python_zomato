@@ -86,7 +86,7 @@ df = df.drop(columns='menu_item')
  To analyze the status of online vs offline orders I made a simple pie chart and Bar chart to compare the median and mean cost of online vs offline.
  
  ### Results
- ![visualization of online vs offline](python_zomato\images\delivery.png)
+ ![visualization of online vs offline](images\delivery.png)
 
  ### Insights
   These are the key take aways from the analysis:
@@ -94,7 +94,7 @@ df = df.drop(columns='menu_item')
    - About 41% are not deliverd 
 
 ### 2_cost difference
-![The cost difference of online vs offline](python_zomato\images\cost_difference.png)
+![The cost difference of online vs offline](images\cost_difference.png)
 ### Insights
   - There is huge difference in mean and median cost of food on delivery basis.
   - online food cost more in both mean and median averages.
@@ -104,7 +104,7 @@ df = df.drop(columns='menu_item')
 Here we will see with the help of bar plots which are the most favorite dish, cuisines, resturents and others types:
  
 ### Results
-![visualization](python_zomato\images\favorite_dish_cuisines.png)![visuals](python_zomato\images\favorite_type.png)
+![visualization](images\favorite_dish_cuisines.png)![visuals](images\favorite_type.png)
 
 ### Insights
  - Fast foods occupies top 3 out of 4 on  basis of orders, pasta with nearly 12000 customers,burger(10000).
@@ -116,7 +116,7 @@ Here we will see with the help of bar plots which are the most favorite dish, cu
 
 ## 3. which are the top 7 most favrite among differnt groups based on rating
  ### Results
- ![rating visuals](python_zomato\images\rating.png)
+ ![rating visuals](images\rating.png)
 
 ### Insights
 - Pubs and Bars are most rated(4.3) type followed by Drink&nightlife(4.3), Buffet(4.2), Cafes(4.1).
@@ -127,7 +127,7 @@ Here we will see with the help of bar plots which are the most favorite dish, cu
 ## 4. which are the least and most expensive Resturants
 
 ### Results
- ![Resturent visuals](python_zomato\images\resturents.png)
+ ![Resturent visuals](images\resturents.png)
 
 ### Insights
 - Caffe Pascucci,Bathinda Dine,           Inchara, Ayda Persian Kitchen,Engine,The Onyx - The HHI Select Bengaluru are the most Expensive resturents that cost exactly 950 each for two person.
@@ -136,7 +136,7 @@ Here we will see with the help of bar plots which are the most favorite dish, cu
 ##  5. what is the relationship between cost and number of customer for cuisines 
 
 ### Results
-![scatter plot](python_zomato\images\scatterplot.png)
+![scatter plot](images\scatterplot.png)
  ### Insights
  - From the plot it is clear that  high prices and low prices does not attract customers.
  - Italian and Continental have highest cost but low customers also south indians dishes have low cost but less customers.
